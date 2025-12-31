@@ -36,4 +36,7 @@ while True:
     
     print(f"Score - You: {u_points}, Computer: {c_points}\n")
     
-    
+    replay = input("Do you want to play again? (y/n): ").lower().strip()
+    if replay != 'y':
+        print("Thanks for playing! 👋")
+        break
