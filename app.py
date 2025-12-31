@@ -5,7 +5,7 @@ u_points = 0
 c_points = 0
 
 while True:
-    user_choice = input("Enter rock, paper, or scissors (or 'q' to exit): ").lower()
+    user_choice = input("Enter rock, paper, or scissors (or 'q' to exit): ").strip().lower()
     
     if user_choice == 'q':
         print("Final Score - You:", u_points, "Computer:", c_points)
